@@ -1,7 +1,5 @@
 # UIButtonWithTouchInfo-Swift
 
-[![CI Status](http://img.shields.io/travis/Developer iOS/UIButtonWithTouchInfo-Swift.svg?style=flat)](https://travis-ci.org/Developer iOS/UIButtonWithTouchInfo-Swift)
-[![Version](https://img.shields.io/cocoapods/v/UIButtonWithTouchInfo-Swift.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo-Swift)
 [![License](https://img.shields.io/cocoapods/l/UIButtonWithTouchInfo-Swift.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/UIButtonWithTouchInfo-Swift.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo-Swift)
 
@@ -24,7 +22,7 @@ pod "UIButtonWithTouchInfo-Swift"
 
 ## Author
 
-Developer iOS, sergiy.v.moskalenko@gmail.com
+sergemoskalenko, skype:camopu-ympo, http://camopu.rhorse.ru/ios
 
 ## License
 
