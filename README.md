@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/UIButtonWithTouchInfo-Swift.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/UIButtonWithTouchInfo-Swift.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo-Swift)
 
+UIButton with touch info on Swift.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
