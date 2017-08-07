@@ -1,0 +1,6 @@
+framework module UIButtonWithTouchInfo_Swift {
+  umbrella header "UIButtonWithTouchInfo-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

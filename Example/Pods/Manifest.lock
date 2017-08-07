@@ -1,0 +1,16 @@
+PODS:
+  - UIButtonWithTouchInfo-Swift (0.1.0)
+
+DEPENDENCIES:
+  - UIButtonWithTouchInfo-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  UIButtonWithTouchInfo-Swift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIButtonWithTouchInfo-Swift: c72ef86cb5b52894f6b656138ef680f57667a894
+
+PODFILE CHECKSUM: c227023731872077ba7b04a0e63d575dbe1eec1d
+
+COCOAPODS: 1.3.1

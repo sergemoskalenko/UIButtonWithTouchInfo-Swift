@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="MSVViewController" customModule="UIButtonWithTouchInfo_Swift_Example" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dz-ia-uLX">
+                                <rect key="frame" x="78" y="264" width="218" height="179.5"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.94901960780000005" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179.5" id="LVf-B5-NFB"/>
+                                    <constraint firstAttribute="width" constant="218" id="upD-oZ-9UG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="110"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIButtonWithTouchInfo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqg-eS-SpI">
+                                <rect key="frame" x="16" y="615" width="343" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5h-Q5-qgm">
+                                <rect key="frame" x="16" y="11.5" width="343" height="20.5"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.94901960780000005" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmG-v5-tN4" customClass="UIButtonWithTouchInfo" customModule="UIButtonWithTouchInfo_Swift">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <action selector="buttonWithInfoAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="nme-A1-Ipg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="Kqg-eS-SpI" secondAttribute="bottom" constant="19" id="52V-Lb-o4Y"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Kqg-eS-SpI" secondAttribute="leading" id="DEL-tI-hXF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="V5h-Q5-qgm" secondAttribute="trailing" id="GVI-6w-gtq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kqg-eS-SpI" secondAttribute="trailing" id="H3p-Go-I1Z"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="lmG-v5-tN4" secondAttribute="bottom" id="JQz-Q2-sH4"/>
+                            <constraint firstItem="V5h-Q5-qgm" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="-8.5" id="KgN-nY-QfY"/>
+                            <constraint firstItem="lmG-v5-tN4" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="-16" id="RdL-gq-uaS"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="V5h-Q5-qgm" secondAttribute="leading" id="Y60-Li-kRN"/>
+                            <constraint firstItem="7dz-ia-uLX" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="YBq-7C-XkU"/>
+                            <constraint firstItem="7dz-ia-uLX" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="20.25" id="Z57-4c-nIV"/>
+                            <constraint firstItem="lmG-v5-tN4" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="-20" id="bis-tx-hiN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lmG-v5-tN4" secondAttribute="trailing" constant="-16" id="neF-UV-GdG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonWithInfoView" destination="lmG-v5-tN4" id="2Jr-Ts-35d"/>
+                        <outlet property="counterLabel" destination="7dz-ia-uLX" id="XoB-HI-SoJ"/>
+                        <outlet property="infoLabel" destination="V5h-Q5-qgm" id="X5X-NP-1br"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="357.60000000000002" y="431.33433283358323"/>
+        </scene>
+    </scenes>
+</document>
