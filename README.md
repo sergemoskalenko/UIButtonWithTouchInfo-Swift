@@ -1,5 +1,10 @@
 # UIButtonWithTouchInfo-Swift
 
+Objective-C version: 
+https://github.com/sergemoskalenko/UIButtonWithTouchInfo
+
+WEB Online DEMO: https://goo.gl/fUszEr
+
 [![License](https://img.shields.io/cocoapods/l/UIButtonWithTouchInfo-Swift.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/UIButtonWithTouchInfo-Swift.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo-Swift)
 
