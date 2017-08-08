@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIButtonWithTouchInfo-Swift'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'UIButtonWithTouchInfo-Swift this is UIButton with touch position information.'
 
 # This description is used to generate tags and improve search results.
