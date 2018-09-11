@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0584A0E49A917DA2B3FCAE53 /* Pods-UIButtonWithTouchInfo-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonWithTouchInfo-Swift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonWithTouchInfo-Swift_Example/Pods-UIButtonWithTouchInfo-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		07EF4F0C6B484FC194CE229D /* Pods-UIButtonWithTouchInfo-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonWithTouchInfo-Swift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonWithTouchInfo-Swift_Tests/Pods-UIButtonWithTouchInfo-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2FD2299798C80A7C6F0C330F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		43C080D81261C494230CA66D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2FD2299798C80A7C6F0C330F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43C080D81261C494230CA66D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UIButtonWithTouchInfo-Swift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIButtonWithTouchInfo-Swift_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6642E2C6103ABFCD0FB621CB /* Pods-UIButtonWithTouchInfo-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonWithTouchInfo-Swift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonWithTouchInfo-Swift_Example/Pods-UIButtonWithTouchInfo-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8E39A97B5194A0846E8255DC /* Pods-UIButtonWithTouchInfo-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonWithTouchInfo-Swift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonWithTouchInfo-Swift_Tests/Pods-UIButtonWithTouchInfo-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		95936528F412D43DC4919A72 /* UIButtonWithTouchInfo-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIButtonWithTouchInfo-Swift.podspec"; path = "../UIButtonWithTouchInfo-Swift.podspec"; sourceTree = "<group>"; };
+		95936528F412D43DC4919A72 /* UIButtonWithTouchInfo-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "UIButtonWithTouchInfo-Swift.podspec"; path = "../UIButtonWithTouchInfo-Swift.podspec"; sourceTree = "<group>"; };
 		E2AF2FF29B6AF16D918EC87E /* Pods_UIButtonWithTouchInfo_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonWithTouchInfo_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA188C6AECCCB3DD4E15909 /* Pods_UIButtonWithTouchInfo_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonWithTouchInfo_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,11 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0940;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0940;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -510,7 +510,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -524,7 +525,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -544,7 +546,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -560,7 +563,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

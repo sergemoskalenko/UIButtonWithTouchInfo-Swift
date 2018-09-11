@@ -21,17 +21,17 @@ public protocol UIButtonWithTouchInfoProtocol :NSObjectProtocol {
     func uiButton(_ uiButtonWithTouchInfo: UIButtonWithTouchInfo, didTouch action: UIButtonWithTouchInfoAction)
 }
 
-public class UIButtonWithTouchInfo: UIButton {
-    public var isClearForTouch: Bool = false
-    public var touchPoint = CGPoint.zero
-    public var touchPart = CGPoint.zero
+open class UIButtonWithTouchInfo: UIButton {
+    open var isClearForTouch: Bool = false
+    open var touchPoint = CGPoint.zero
+    open var touchPart = CGPoint.zero
     // normalized
-    public var touchPointCurrent = CGPoint.zero
-    public var touchPartCurrent = CGPoint.zero
+    open var touchPointCurrent = CGPoint.zero
+    open var touchPartCurrent = CGPoint.zero
     // normalized
-    public var delegate: UIButtonWithTouchInfoProtocol?
+    open var delegate: UIButtonWithTouchInfoProtocol?
     
-    public var isTouched: Bool = false
+    open var isTouched: Bool = false
     
     public override init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
@@ -63,7 +63,7 @@ public class UIButtonWithTouchInfo: UIButton {
         }
     }
     
-    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         callDelegate(touches, action: .began)
         isTouched = true
         super.touchesBegan(touches, with: event)
@@ -72,7 +72,7 @@ public class UIButtonWithTouchInfo: UIButton {
         }
     }
     
-    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         callDelegate(touches, action: .moved)
         super.touchesMoved(touches, with: event)
         if isClearForTouch {
@@ -80,7 +80,7 @@ public class UIButtonWithTouchInfo: UIButton {
         }
     }
     
-    override public func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         callDelegate(touches, action: .cancelled)
         isTouched = false
         touchPart = CGPoint.zero
@@ -91,7 +91,7 @@ public class UIButtonWithTouchInfo: UIButton {
         }
     }
     
-    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         callDelegate(touches, action: .ended)
         if isTouched {
             touchPoint = ((touches.first)?.location(in: self))!

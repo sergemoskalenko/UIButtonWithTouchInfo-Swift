@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIButtonWithTouchInfo-Swift'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'UIButtonWithTouchInfo-Swift this is UIButton with touch position information.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Use it for fun and projects.
   s.homepage         = 'https://github.com/sergemoskalenko/UIButtonWithTouchInfo-Swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Developer iOS' => 'skype:camopu-ympo, http://camopu.rhorse.ru/ios' }
+  s.author           = { 'Serge Moskalenko' => 'skype:camopu-ympo, http://camopu.rhorse.ru/ios' }
   s.source           = { :git => 'https://github.com/sergemoskalenko/UIButtonWithTouchInfo-Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/sergemoskalenko'
 

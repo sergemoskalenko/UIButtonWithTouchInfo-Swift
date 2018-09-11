@@ -30,18 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		032450272F0ED073509FAD2E5A2AE1F7 /* Pods_UIButtonWithTouchInfo_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButtonWithTouchInfo_Swift_Tests.framework; path = "Pods-UIButtonWithTouchInfo-Swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032450272F0ED073509FAD2E5A2AE1F7 /* Pods_UIButtonWithTouchInfo_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonWithTouchInfo_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0899BB240D56FD605E9F6A927505E6BB /* UIButtonWithTouchInfo-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonWithTouchInfo-Swift-prefix.pch"; sourceTree = "<group>"; };
 		0F486F958039DE755AEE289012F403A8 /* Pods-UIButtonWithTouchInfo-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonWithTouchInfo-Swift_Example-dummy.m"; sourceTree = "<group>"; };
 		1385F6C5EFFBD2DD7BD83551D7AFAE2E /* UIButtonWithTouchInfo-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonWithTouchInfo-Swift-umbrella.h"; sourceTree = "<group>"; };
 		196FFAAFC94B543F511E11D5C1DE0CCB /* Pods-UIButtonWithTouchInfo-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonWithTouchInfo-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2115B2D9BB74BC37E4E6EC03F775EF26 /* Pods-UIButtonWithTouchInfo-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButtonWithTouchInfo-Swift_Tests.modulemap"; sourceTree = "<group>"; };
+		2115B2D9BB74BC37E4E6EC03F775EF26 /* Pods-UIButtonWithTouchInfo-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIButtonWithTouchInfo-Swift_Tests.modulemap"; sourceTree = "<group>"; };
 		215E42230BA2094787E808FDF74E1E6E /* Pods-UIButtonWithTouchInfo-Swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonWithTouchInfo-Swift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		25DA87B19DD0A6427C4454EBB1F55569 /* Pods-UIButtonWithTouchInfo-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29DC867129DF2960B4CCDFC91A744E6E /* Pods-UIButtonWithTouchInfo-Swift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonWithTouchInfo-Swift_Example-resources.sh"; sourceTree = "<group>"; };
-		45970B49C01096C9C788040311B1FD18 /* Pods_UIButtonWithTouchInfo_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButtonWithTouchInfo_Swift_Example.framework; path = "Pods-UIButtonWithTouchInfo-Swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45970B49C01096C9C788040311B1FD18 /* Pods_UIButtonWithTouchInfo_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonWithTouchInfo_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4738F203F312881FF4EBFE2067AE6FBE /* Pods-UIButtonWithTouchInfo-Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonWithTouchInfo-Swift_Example-umbrella.h"; sourceTree = "<group>"; };
-		5397A22772691B9A078B24C7EDD55857 /* Pods-UIButtonWithTouchInfo-Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButtonWithTouchInfo-Swift_Example.modulemap"; sourceTree = "<group>"; };
+		5397A22772691B9A078B24C7EDD55857 /* Pods-UIButtonWithTouchInfo-Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UIButtonWithTouchInfo-Swift_Example.modulemap"; sourceTree = "<group>"; };
 		63CBA89197A4775A82D1B0A932F1FAE9 /* Pods-UIButtonWithTouchInfo-Swift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonWithTouchInfo-Swift_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		71B8B549A0D8881CF0F94336120EC01D /* Pods-UIButtonWithTouchInfo-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,12 +49,12 @@
 		764C5933FB87FBA326214D3A9E2CE878 /* Pods-UIButtonWithTouchInfo-Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonWithTouchInfo-Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		815EEE11D5D94525C8725429F6896B90 /* Pods-UIButtonWithTouchInfo-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		86822DE343C1DB10A57D7564BC7F0C44 /* Pods-UIButtonWithTouchInfo-Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonWithTouchInfo-Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		986CCE021D158FAC62E9948191F4CD51 /* UIButtonWithTouchInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonWithTouchInfo.swift; path = "UIButtonWithTouchInfo-Swift/Classes/UIButtonWithTouchInfo.swift"; sourceTree = "<group>"; };
-		9965B5CA1F9A207AB0350CA8EB375698 /* UIButtonWithTouchInfo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIButtonWithTouchInfo_Swift.framework; path = "UIButtonWithTouchInfo-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9965B5CA1F9A207AB0350CA8EB375698 /* UIButtonWithTouchInfo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIButtonWithTouchInfo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4C2C67D85CE21EEEE9D3C81AFE7A29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD8C428E0ADCF33CB46CAD5EBFC213B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF447718EAD6FA066363E852EDEC90F8 /* UIButtonWithTouchInfo-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIButtonWithTouchInfo-Swift.modulemap"; sourceTree = "<group>"; };
+		AF447718EAD6FA066363E852EDEC90F8 /* UIButtonWithTouchInfo-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIButtonWithTouchInfo-Swift.modulemap"; sourceTree = "<group>"; };
 		C58DFF23A0B25567CDFA77CAD371B95C /* UIButtonWithTouchInfo-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIButtonWithTouchInfo-Swift.xcconfig"; sourceTree = "<group>"; };
 		D65A2FC2F0534179B26BC26050D0D316 /* Pods-UIButtonWithTouchInfo-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonWithTouchInfo-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEBB8E5DDCE6D3E3A627E624CA3BB1DE /* Pods-UIButtonWithTouchInfo-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -296,6 +296,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4CEAAAE7612FF87A991F1128BA899842 = {
+						LastSwiftMigration = 0940;
+					};
+					6862E823E927DC2C63D86B2C2169A9C3 = {
+						LastSwiftMigration = 0940;
+					};
+					C67D2BDDD2AB8D43084546D38ED2D2AA = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,7 +393,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -463,6 +475,8 @@
 				PRODUCT_NAME = Pods_UIButtonWithTouchInfo_Swift_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -497,7 +511,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -585,7 +600,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -623,7 +639,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -660,6 +677,8 @@
 				PRODUCT_NAME = Pods_UIButtonWithTouchInfo_Swift_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

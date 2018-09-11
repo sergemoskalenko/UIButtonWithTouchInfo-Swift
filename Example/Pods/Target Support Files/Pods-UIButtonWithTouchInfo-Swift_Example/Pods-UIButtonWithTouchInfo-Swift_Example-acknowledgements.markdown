@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## UIButtonWithTouchInfo-Swift
 
-Copyright (c) 2017 Developer iOS <sergiy.v.moskalenko@gmail.com>
+Copyright (c) 2017 Serge Moskalenko , skype:camopu-ympo, http://camopu.rhorse.ru/ios
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

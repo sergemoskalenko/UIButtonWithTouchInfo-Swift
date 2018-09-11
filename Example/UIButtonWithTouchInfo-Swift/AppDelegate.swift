@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  UIButtonWithTouchInfo-Swift
 //
-//  Created by Developer iOS on 08/07/2017.
-//  Copyright (c) 2017 Developer iOS. All rights reserved.
+//  Created by Serge Moskalenko on 08/07/2017.
+//  Copyright (c) 2017 Serge Moskalenko. All rights reserved.
 //
 
 import UIKit
