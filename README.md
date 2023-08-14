@@ -25,7 +25,7 @@ pod "UIButtonWithTouchInfo-Swift"
 
 ## Author
 
-sergemoskalenko, skype:camopu-ympo, http://camopu.rhorse.ru/ios
+sergemoskalenko, skype:camopu-ympo, https://github.com/sergemoskalenko
 
 ## License
 
