@@ -25,7 +25,7 @@ Use it for fun and projects.
   s.homepage         = 'https://github.com/sergemoskalenko/UIButtonWithTouchInfo-Swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Serge Moskalenko' => 'skype:camopu-ympo, http://camopu.rhorse.ru/ios' }
+  s.author           = { 'Serge Moskalenko' => 'skype:camopu-ympo, https://github.com/sergemoskalenko' }
   s.source           = { :git => 'https://github.com/sergemoskalenko/UIButtonWithTouchInfo-Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/sergemoskalenko'
 
