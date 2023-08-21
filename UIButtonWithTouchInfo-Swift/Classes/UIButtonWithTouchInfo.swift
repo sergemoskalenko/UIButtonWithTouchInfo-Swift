@@ -3,7 +3,7 @@
 //
 //  Created by Serge Moskalenko on 25.07.17.
 //  Copyright © 2017 Serge Moskalenko. All rights reserved.
-//  skype:camopu-ympo, http://camopu.rhorse.ru/ios
+//  skype:camopu-ympo, https://github.com/sergemoskalenko
 //
 
 import UIKit
